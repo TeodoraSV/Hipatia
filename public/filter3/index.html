@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Server with database</title>
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="../">Home</a>
+    <a href="../cam">Normal camera</a>
+    <a href="../filter1">Painting filter</a>
+    <a href="../filter2">Circles filter</a>
+    <a href="../filter3">Black and white filter</a>
+    <a href="../filter4_ver">Verticle filer</a>
+    <a href="../filter4_hor">Horisontal filer</a>
+    <a href="../logs">My selfies</a>
+    <a href="../map">My map</a>
+    
+  </div>
+  <h1>Black and white</h1>
+  <p>
+    latitude: <span id="latitude"></span>&deg;<br />
+    longitude: <span id="longitude"></span>&deg;
+  </p>
+  <label for="mood">enter your mood</label>
+  <input id="mood" value="rainbow" />
+  <button id="submit">submit</button>
+  <script src="sketch.js"></script>
+    <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+   <div id="sketch1"></div>
+  <div id="sketch2"></div> 
+</body>
+
+</html>

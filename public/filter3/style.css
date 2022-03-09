@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+h1 {
+    
+    background-color: rgba(255, 255, 255, 0); 
+    /* border: 2px solid powderblue;
+    border-width: medium; */
+    border-bottom: medium solid powderblue;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
